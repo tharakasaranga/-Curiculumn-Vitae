@@ -1,0 +1,112 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+body{
+    background-color: rgb(179, 174, 174);
+}
+.container{
+    background-color: white;
+    border:10px solid rgb(40, 27, 219);
+    box-shadow: 0 0 50px rgb(24, 46, 209);
+    padding:100px;
+    margin:100px 150px 100px 150px;
+    display: flex;
+    border-radius: 40px;
+
+}
+
+.container .left{
+    width: 40%;
+    margin-right:50px
+}
+
+.left .image img{
+    width: 250px;
+    border:10px solid rgb(20, 47, 255);
+    border-radius: 50%;
+    box-shadow: 0px 0px 150px rgb(41, 31, 237);
+}
+ h2{
+    margin:60px 0px 20px 0px;
+    color:rgb(0, 0, 248);
+}
+
+.left .contact p{
+    margin-bottom: 10px;
+}
+.left .contact p img{
+    width: 20px;
+    margin-right: 50px;
+}
+
+.skills h3{
+    margin:20px 0px 5px 0px;
+}
+.skills ul li{
+    margin-left: 25px;
+    margin-bottom: 8px;
+}
+
+
+
+.container .right{
+    width: 70%;
+}
+
+.right .intro .name{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Tahoma, sans-serif;
+}
+
+.nameintro{
+    font-size: 20px;
+    color:rgb(100, 9, 164);
+    font-weight: 700;
+    font-family: Tahoma, sans-serif;
+}
+
+.profile p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+table tr td{
+    padding-right:70px;
+}
+
+.projects p{
+    margin-bottom: 8px;
+}
+
+.projects p img{
+    width:20px;
+}
+
+.projects p a{
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+
+}
+
+a:hover{
+    color:blue;
+}
+
+a:active{
+    color:red;
+}
+
+
+
+.achieve .Certificate tr td .imgCertificate{
+    width: 40px;
+}
